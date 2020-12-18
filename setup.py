@@ -10,7 +10,9 @@ except:
 version = '1.10.2'
 
 install_requires = [
-    'six>=1.1.0'
+    'six>=1.1.0',
+    'arabic_reshaper>=2.1.1',
+    'python-bidi>=0.4.2'
 ]
 
 tests_require = [
